@@ -23,6 +23,13 @@ class MainPage extends Component {
           description={[<div>您已经完成了{this.state.count}</div>]}
         />
       </Card>
+      <Card  style={{ width: 300 }}
+             actions={[<Icon type="setting" />, <Icon type="edit" />, <Icon type="ellipsis" />]}>
+        <Meta
+          title="运动"
+          description={[<div>您已经完成了{this.state.count}</div>]}
+        />
+      </Card>
     </div>
     );
   }
